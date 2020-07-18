@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Screen</title>
+	<link rel="stylesheet" type="text/css" href="Home.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="welcome">
+    <h1>Welcome!</h1>
+</div>
+
+<div class="intro">
+	<p>Hello guys! I am Jatin and i have something for you.<br>This is a Calculator made by me with the help of HTML, CSS and JAVASCRIPT. It's my First project.</p>
+</div>
+<br>
+<form id="form">
+	
+	Calculator: <br>
+	<div class="radio">
+    <input type="radio" name="radiobutton" value="Addition" id="addition">
+    Addition
+    </div>
+    <div class="radio">
+    <input type="radio" name="radiobutton" value="Subtraction" id="subtraction">
+    Subtraction
+    </div>
+    <div class="radio">
+    <input type="radio" name="radiobutton" value="Multiplication" id="multiplication">
+    Multiplication
+    </div>
+    <div class="radio">
+    <input type="radio" name="radiobutton" value="Divide" id="divide">
+    Divide
+    </div>
+    <div class="radio">
+    <input type="radio" name="radiobutton" value="Modulus" id="modulus">
+    Modulus
+    </div>	
+    <br>
+    
+    <div class="input">
+    	<div class="first">
+    		First Number:<br> <input type="text" name="firstnumber" id="firstnumber">
+    	</div>
+    	<div class="second">
+    		Second Number:<br> <input type="text" name="secondnumber" id="secondnumber">
+    	</div>
+    </div> 
+
+    <div class="submit">
+    	<input type="submit" name="submit" value="Calculate">
+    </div>
+</form>
+
+<h3 id="result1">Result of Addition</h3>
+<h3 id="result2">Result of Subtraction</h3>
+<h3 id="result3">Result of Multiplication</h3>
+<h3 id="result4">Result of Divide</h3>
+<h3 id="result5">Result of Modulus</h3>
+
+<script type="text/javascript" src="Home.js"></script>
+</body>
+</html>
